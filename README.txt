@@ -1,12 +1,22 @@
-To run program, python 3 is required
+# meetings-timezone-converter
 
-dependencies:
-import pytz
+This is a command line program that converts the time of your meeting to that of other timezones
 
-To run, type in the command terminal:
+## Getting Started
 
-python3 meetings.py
+Clone the repository. Unzip the folder. Open the terminal and change directory to be located inside the repository.
 
+### Prerequisites
 
+Python 3
 
-This program was made with the help of a tutorial by instructor Kenneth Love
+import pytz module by:
+```
+pip install pytz
+```
+
+### Running the program
+
+```
+python meetings.py
+```
